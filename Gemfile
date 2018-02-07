@@ -13,7 +13,9 @@ gem 'rails', '~> 5.1.4'
 gem 'sqlite3', group:[:development, :test]
 # posgres for production database
 gem 'pg', '~> 0.11', group: :production
-#12 factor for Heroku
+# stripe for payment processing
+gem 'stripe', '~> 3.9', '>= 3.9.1'
+#bootstrap
 gem 'bootstrap-sass'
 # Use Puma as the app server
 gem 'puma', '~> 3.7'
